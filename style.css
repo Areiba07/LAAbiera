@@ -1,0 +1,168 @@
+body{
+    background-color: #171F52;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+nav ul li a:hover
+{
+color: #e3e657;
+text-decoration: underline;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h1{
+    font-size: 50px;
+    color:#fff
+}
+
+
+span {
+    color: #f1177d;
+    font-size: 25px;
+}
+
+hr {
+    border: .5px solid #fff;
+    width: 300px;
+    margin: 20px 0px;
+}
+
+p{
+    margin: 20px 0px;
+    color:#fff;
+    max-width: 45;
+}
+
+.button {
+    background: #d0cfcf;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.button:hover {
+    background: #e3e657;
+}
+
+.socials {
+    position: absolute;
+    right: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.socials a{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.socials a:hover 
+{
+color: #e3e657;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: justify;
+    max-width: 60%;
+	margin-top: 50px;
+}
+
+label {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	background: #d0cfcf;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+  
+.contact {
+    overflow: hidden;
+}
+  
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+form {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
